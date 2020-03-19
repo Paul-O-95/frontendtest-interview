@@ -1,0 +1,52 @@
+.services {
+  background-color: #502eff;
+  color: #f4f4f4;
+  padding: 15rem 0 2rem 12rem;
+  // position: relative;
+
+  .title {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    h1 {
+      font-size: 7rem;
+      line-height: 0.8;
+    }
+  }
+  .dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .content {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 75%;
+    section {
+      margin-bottom: 7rem;
+      margin-right: 1rem;
+      padding: 0 1rem 1rem 0;
+
+      display: grid;
+      grid-template-columns: 10% 90%;
+
+      .text {
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .services {
+    padding: 10rem 0 2rem 5rem;
+  }
+  .title {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

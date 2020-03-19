@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="100" viewBox="0 0 312 100">
+  <g id="Play_Button" transform="translate(-83 -777)">
+    <path id="Background" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(83 777)" fill="#502eff"/>
+    <path id="Play_Icon" d="M65,325.168a5.079,5.079,0,0,1,7.759-4.4l25.863,15.518a5.093,5.093,0,0,1,0,8.793L72.759,360.6A5.161,5.161,0,0,1,65,356.2m0-31.036" transform="translate(55.165 486.743)" fill="#fafafa" fill-rule="evenodd"/>
+    <text id="Watch_Trailer" data-name="Watch Trailer" transform="translate(213 834)" fill="#000964" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">watch a video intro</tspan></text>
+  </g>
+</svg>

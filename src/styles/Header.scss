@@ -1,0 +1,72 @@
+.images {
+  position: relative;
+  box-sizing: border-box;
+
+  .image1 {
+    img {
+      width: 25%;
+    }
+  }
+  .image2 {
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+    img {
+      width: 70%;
+    }
+  }
+  .image3 {
+    position: absolute;
+    top: 25rem;
+    left: 12rem;
+    img {
+      width: 80%;
+    }
+  }
+  .image3:hover {
+    cursor: pointer;
+  }
+  .image4 {
+    position: absolute;
+    top: -16rem;
+    right: -7.7rem;
+    width: 61.5%;
+    height: 100%;
+    z-index: 1;
+
+    img {
+      width: 95%;
+    }
+  }
+  .image5 {
+    position: absolute;
+    left: 54rem;
+    bottom: -22rem;
+    width: 60%;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .images {
+    .image2 {
+      top: 0rem;
+      left: 4rem;
+      width: 40%;
+    }
+    .image3 {
+      top: 5rem;
+      left: 4.3rem;
+      width: 40%;
+    }
+    .image4 {
+      top: -4rem;
+      right: -4rem;
+    }
+    .image5 {
+      left: 15rem;
+      top: 10.5rem;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+$primary-color: #502eff;
+$light: #fff;
+
+nav {
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding: 0 5rem;
+  .logo {
+    color: #333;
+    display: inline-block;
+    margin-left: 7rem;
+    padding: 0.5rem;
+    z-index: 10;
+  }
+  .logo:hover {
+    cursor: pointer;
+    border: 1px solid $primary-color;
+  }
+  .links {
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12.5rem;
+    z-index: 10;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 5rem;
+      height: 1rem;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+    li:hover {
+      border: 1px solid $primary-color;
+      background-color: $primary-color;
+      cursor: pointer;
+
+      border-radius: 1rem;
+      a {
+        color: $light;
+      }
+    }
+  }
+  button {
+    width: 6.25rem;
+    height: 1.8rem;
+    border-radius: 1.25rem;
+    background-color: $primary-color;
+    border: none;
+    color: $light;
+    align-self: center;
+    z-index: 10;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 1020px) {
+  nav {
+    margin: 0rem;
+    padding: 0 1rem;
+    .logo {
+      margin-left: 0rem;
+      padding: 0;
+    }
+    .links {
+      li {
+        a {
+          font-size: 4px;
+        }
+      }
+    }
+    button {
+      width: 2rem;
+      height: 1rem;
+      border-radius: 0.7rem;
+      font-size: 2px;
+    }
+  }
+}
