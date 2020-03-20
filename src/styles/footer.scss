@@ -1,5 +1,4 @@
-.wrapped {
-  border: 1px solid black;
+.footer {
   background-color: rgb(233, 221, 253);
   padding: 5rem 2rem;
   width: 100%;
@@ -40,11 +39,39 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 1020px) {
-  .wrapped {
-    width: 100vw;
+@media screen and (max-width: 700px) {
+  .footer {
+    width: 100%;
+    padding: 2rem 1rem;
     section {
-      // display: none;
+      font-size: 8px;
+      padding: 0;
+      & > div {
+        margin: 0;
+      }
+      div {
+        width: 100px;
+        height: 100%;
+      }
+    }
+    img {
+      width: 65px;
+    }
+    p {
+      font-size: 5px !important;
+    }
+    .div1 {
+      padding-right: 10px !important;
+    }
+    .ft-socials {
+      ul {
+        li {
+          margin: 0 !important;
+          margin-right: 4px !important;
+          margin-left: -2px !important;
+          font-size: 10px !important;
+        }
+      }
     }
   }
 }

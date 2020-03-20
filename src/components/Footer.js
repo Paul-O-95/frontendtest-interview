@@ -4,14 +4,14 @@ import logo from "../images/Group 1060.svg";
 
 function Footer() {
   return (
-    <div className='wrapped'>
+    <div className='footer'>
       <section>
         <div>
           <h1>
             <img src={logo} alt='' />
           </h1>
           <div>
-            <p>
+            <p className='div1'>
               A design agency shaping ideas into products. We help startups and
               enterprises invent, build and launch
             </p>

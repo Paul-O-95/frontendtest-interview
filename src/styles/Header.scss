@@ -48,6 +48,16 @@
     }
   }
 }
+// @media screen and (width: 450px) {
+//   .images {
+//     .image4 {
+//       top: -5.2rem;
+//     }
+//     .image5 {
+//       left: 14rem;
+//     }
+//   }
+// }
 @media screen and (max-width: 700px) {
   .images {
     .image2 {
@@ -58,15 +68,16 @@
     .image3 {
       top: 5rem;
       left: 4.3rem;
-      width: 40%;
+      width: 30%;
     }
     .image4 {
       top: -4rem;
       right: -4rem;
+      width: 66%;
     }
     .image5 {
-      left: 15rem;
-      top: 10.5rem;
+      left: 13.5rem;
+      top: 12rem;
     }
   }
 }

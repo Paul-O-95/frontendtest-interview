@@ -65,7 +65,7 @@ nav {
     box-shadow: none;
   }
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 700px) {
   nav {
     margin: 0rem;
     padding: 0 1rem;
@@ -74,7 +74,9 @@ nav {
       padding: 0;
     }
     .links {
+      margin-left: 2.6rem;
       li {
+        width: 1.5rem;
         a {
           font-size: 4px;
         }

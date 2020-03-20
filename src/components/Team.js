@@ -8,7 +8,7 @@ import "../styles/team.scss";
 
 function Team() {
   return (
-    <div className='wrapper'>
+    <div className='team'>
       <div className='headings'>
         <h4>Meet The Team</h4>
         <h2>great outcome always relay on the great foundations</h2>
@@ -23,7 +23,7 @@ function Team() {
             <img src={person1} alt='' />
           </div>
           <div className='info'>
-            <h3>jom potrick</h3>
+            <h3 className='ph3'>jom potrick</h3>
             <p>Standard screen generation and design for all</p>
             <ul>
               <li>
